@@ -24,11 +24,14 @@ curl --location 'localhost:9092/authenticate' \
 }'
 
 
+
 2.  REST API to get information about football matches. It will require JwtToken created using API 1
 
 curl --location 'localhost:9092/matches/draws/2011' \
 --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEZW1vVXNlcm5hbWUiLCJleHAiOjE2Nzk0NTg4NTIsImlhdCI6MTY3OTQ1ODI1Mn0.qSoNsuOo72a7D0ei--9UaWwQrvE9DrXCqmpr4jcnllo' \
 --header 'Cookie: JSESSIONID=134346B87CE8E9822406DF032C4D63D7'
+
+
 
 3. API in which we pass the JWT token and retrieve the values saved in that token with its expiration time.
 
