@@ -45,4 +45,4 @@ curl --location 'localhost:9092/jwt' \
 
 Both APIs 2 and 3 will require JwtToken that we create using API 1.
 
-#Abc
+# Abc
