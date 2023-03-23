@@ -33,7 +33,7 @@ curl --location 'localhost:9092/matches/draws/2011' \
 
 
 
-3. API in which we pass the JWT token and retrieve the values saved in that token with its expiration time.
+* * 3. API in which we pass the JWT token and retrieve the values saved in that token with its expiration time.
 
 curl --location 'localhost:9092/jwt' \
 --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJEZW1vVXNlcm5hbWUiLCJleHAiOjE2Nzk0NTg4NTIsImlhdCI6MTY3OTQ1ODI1Mn0.qSoNsuOo72a7D0ei--9UaWwQrvE9DrXCqmpr4jcnllo' \
